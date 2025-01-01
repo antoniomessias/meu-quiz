@@ -1,0 +1,59 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "1- Sobre ID e CLASS não é correto afirmar:",
+        "answers": [
+          {"text": "Servem para identificar e agrupar elementos", "correct": false},
+          {"text": "Servem para aplicar estilos CSS", "correct": false},
+          {"text": "Id são únicos e Class podem se repetir", "correct": false},
+          {"text": "Em Javascript os ID são utilizados ...", "correct": false},
+          {"text": "Usamos IDs para a criação de links do tipo âncora", "correct": true}
+        ]
+      },
+      {
+        "id": 2,
+        "question": "2- A pseudo-classe utilizada para indicar o estado de um link quando o ponteiro está sobre ele é:",
+        "answers": [
+          {"text": "hover", "correct": true},
+          {"text": "active", "correct": false},
+          {"text": "link", "correct": false},
+          {"text": "mouseout", "correct": false},
+          {"text": "mouseover", "correct": false}
+        ]
+      },
+      {
+        "id": 3,
+        "question": "3- Quem inventou o HTML?",
+        "answers": [
+          {"text": "Tim Berners-Lee", "correct": true},
+          {"text": "Bill Gates", "correct": false},
+          {"text": "Elon Musk", "correct": false},
+          {"text": "Facebook", "correct": false},
+          {"text": "Google", "correct": false}
+        ]
+      },
+      {
+        "id": 4,
+        "question": "4- O que significa HTML?",
+        "answers": [
+          {"text": "Hot Text Markup Language", "correct": false},
+          {"text": "Homepage Typing Modern Language", "correct": false},
+          {"text": "Hyper Text Markup Language", "correct": true},
+          {"text": "Homepage Testing Markup Language", "correct": false},
+          {"text": "Hyperlinks Top Markup Language", "correct": false}
+        ]
+      },
+      {
+        "id": 5,
+        "question": "5- Qual atributo HTML é usado para definir estilos inline?",
+        "answers": [
+          {"text": "styles", "correct": false},
+          {"text": "style", "correct": true},
+          {"text": "script", "correct": false},
+          {"text": "class", "correct": false},
+          {"text": "text-style", "correct": false}
+        ]
+      }
+    ]
+  }
