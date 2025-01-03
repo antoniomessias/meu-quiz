@@ -8,7 +8,6 @@ const Resultado = ({ perguntas, respostasUsuario, pontuacao, total, reiniciar })
       <p> Você acertou {pontuacao} de {total} questões. </p>
       <div className="resultado-detalhado">
         {perguntas.map((pergunta, index) => {
-          const respostaCorreta = pergunta.answers.find((resposta) => resposta.correct); /*Coletar a resposta correta*/
           const respostaEscolhida = respostasUsuario[index]; /*Coletar a resposta do usuario*/
           const acertou = pergunta.answers[respostaEscolhida]?.correct; /*Comparando a resposta*/
           return (
